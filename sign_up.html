@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Create New Account </title>
+        <meta charset="UTF-8" />
+
+        <link rel="stylesheet" type="text/css" href="css/SignUp.css"  />
+    </head>
+
+    <body>
+        <div class="signup-form">
+            <form action="" method="post">
+                <div class="form-header">
+                    <h2> Sing up </h2>
+                    <p> Create New Account And Sign in  Account </p>
+                </div>
+
+                <div class="form-group ">
+                    <Label> User Name </Label><br>
+                    <input type="text" class="form-control" name="user_name" placeholder="EX: Kais" autocomplete="off" required/>
+                </div> 
+
+                <div class="form-group ">
+                    <Label> password </Label><br>
+                    <input type="password" class="form-control" name="User_Pass" placeholder="password" autocomplete="off" required/>
+                </div> 
+                <div class="form-group ">
+                    <Label> Email Address </Label><br>
+                    <input type="email" class="form-control" name="User_email" placeholder="someone@sit.come" autocomplete="off" required/>
+                </div> 
+                <div class="form-group">
+                    <label> Country </label> <br>
+                    <select class="form-control" name="user_country" >
+                        <option disabled="">Select a Country </option>
+                        <option> UK </option>
+                        <option> Syria </option>
+                        <option> France </option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label> Gender </label> <br>
+                    <select class="form-control" name="user_gender" >
+                        <option disabled="">Select your Gender </option>
+                        <option> Male </option>
+                        <option> Female </option>
+                        <option> Other </option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div class="form-group ">
+                    <button type="submit" class="btn btn-primary btn-block btn-lg" name="sing_up">
+                        Sing In
+                    </button> 
+                </div> 
+
+                
+                <div class="text-center small" style="color: blue">Arleady have an account? 
+                    <a href="index.html">Signin here</a>    
+                </div>
+            </form> 
+        </div>
+    </body>
+</html>
